@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ideasweb/static/css/main.ef176e03.css",
+    "main.js": "/ideasweb/static/js/main.217cfa65.js",
+    "static/media/cv.pdf": "/ideasweb/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/img-ideas.png": "/ideasweb/static/media/img-ideas.eccb48ce8735e10e665f.png",
+    "static/media/1.png": "/ideasweb/static/media/1.0085915eb2b384cd3bd2.png",
+    "static/media/evolution.png": "/ideasweb/static/media/evolution.aea2e3e18fd563b6c644.png",
+    "static/media/medipure.png": "/ideasweb/static/media/medipure.b3ad8a5945d4e1f7278c.png",
+    "static/media/Bienes_raices.png": "/ideasweb/static/media/Bienes_raices.9f7f8f2ff4fe8b06e8d2.png",
+    "static/media/smartnet.png": "/ideasweb/static/media/smartnet.271d9b2a363eef43c177.png",
+    "static/media/enlazze.png": "/ideasweb/static/media/enlazze.c8cf268bd483b3a92278.png",
+    "static/media/fidelity.png": "/ideasweb/static/media/fidelity.93d9c72d7540e73f66b1.png",
+    "index.html": "/ideasweb/index.html",
+    "main.ef176e03.css.map": "/ideasweb/static/css/main.ef176e03.css.map",
+    "main.217cfa65.js.map": "/ideasweb/static/js/main.217cfa65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef176e03.css",
+    "static/js/main.217cfa65.js"
+  ]
+}
