@@ -1,0 +1,93 @@
+
+header{
+    height: 100vh;
+    padding-top: 2rem;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--color-primary),var(--color-bg-variant))
+}
+.header__container{
+    height: 100%;
+    text-align: center;
+    position: relative;  
+}
+.brand{
+    letter-spacing: 1.4rem;
+    margin-bottom: 2rem;
+}
+.brand-span{
+    font-weight: 700;
+    color:var(--color-primary);
+    text-shadow: 1px 1px white;
+}
+
+/* =========== CTA =============== */
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+
+}
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    font-size:1.2rem;
+}
+.header__socials-icons:hover{
+    color: #fff;
+   
+}
+.header__socials:after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-white)
+}
+.text-light{
+   font-weight: 200;
+}
+/* =============== Me =================== */
+
+ .me{
+    /* background: linear-gradient(var(--color-primary),transparent); */
+    /* position: absolute; */
+    width: 90%;
+    /* height: 30rem;  */
+    /* margin-top: 5rem;  */
+    /* left: calc(50% - 11rem);  */
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;  
+} 
+
+/* =============== Scroll down ================ */
+.scroll__down{
+    position: absolute;
+    right: -2rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 1rem;    
+}
+
+/* ----------------- Media queries (Medium devices) --------------- */
+/* @media (max-width: 1024px){
+    header{
+        height: 100vh;
+    }
+} */
+/* ----------------- Media queries (Small Devices) --------------- */
+@media (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+    .header__socials,.scroll__down{
+        display: none;
+    }
+}

@@ -1,0 +1,75 @@
+
+.container.contact__container{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12rem;
+}
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.contact__option{
+    background: transparent;
+    padding: 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 1.2rem;
+    text-align: center;
+    transition: var(--transition);    
+    border-color: var(--color-primary-variant)
+}
+.contact__option:hover{
+    background: transparent;
+}
+.contact__option-icon{
+    font-size: 1.8rem;
+    margin: 0.4rem;
+}
+.contact__option-link{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem; 
+}
+.contact__title,
+.contact__user{
+    color: rgb(105, 104, 104);
+}
+/* =============== Form ==================*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input,
+textarea{
+    width: 100%;
+    background: transparent;
+    padding: 1.4rem;
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 0.5rem;
+    resize: none;
+    color: var(--color-light)
+}
+.btn-whats{
+    color: #43C858;
+}
+.btn-messenger{
+    color: #138AF2;
+}
+.btn-gmail{
+    color: #DF4032;
+}
+/** ===================  Media queries (Medium Devices )============== **/
+@media (max-width: 1024px){
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+/* ===================  Media queries (Small Devices )============== */
+@media (max-width: 600px){
+    .container.contact__container{
+        width: var(--container-width-sm)
+    }
+}
